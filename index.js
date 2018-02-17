@@ -1,7 +1,7 @@
 const fs = require('fs')
 const request = require('request')
 const progress = require('request-progress')
-const models = require('./models/list')
+const models = require('./data/list')
 const baseURL = 'https://storage.googleapis.com/quickdraw-models/sketchRNN/large_models'
 
 let log = [0]
